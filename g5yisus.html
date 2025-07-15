@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 5 - Gaming</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css"
+</head>
+<body>
+
+<!--parte superior de inicio de sesion y demas-->
+    <header class="header">
+        <div class="header-icon">
+            <img src="iconuser.jpg" alt="Icono de Usuario">
+        </div>
+        <div class="header-icon">
+            <img src="mandoicon.jpg" alt="Icono de Mando">
+        </div>
+        <div class="header-icon login">
+             <img src="login.jpg" alt="Icono de Inicio de Sesión"> LOGIN
+        </div>
+    </header>
+
+
+<!--fondo g5 con joysticks-->    
+    <main class="main-content">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="g5fondonegro.jpg"  alt="Logo de Gaming">
+                GRUPO 5 - GAMMING
+            </div>
+            <a href="#" class="navbar-button">PS5</a>
+            <a href="#" class="navbar-button">PS4</a>
+            <a href="#" class="navbar-button active">PS3</a> <!--muestra el color del boton en modo brillante-->
+            <a href="#" class="navbar-button">Juegos Casuales</a>
+            <a href="#" class="navbar-button">Juegos de Cartas</a>
+        </nav>
+
+ <!--descripcion de disparos-->       
+        <section class="game-showcase">
+            <div class="game-card">
+                <div class="game-card-content">
+                    <div class="game-image"></div>
+                    <div class="game-title">Shooter future</div>
+                    <div class="game-description">Un juego de acción de ciencia ficción ambientado en un mundo cibernético</div>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star empty">★</span>
+                    </div>
+                    <button class="comment-button">COMENTARIO</button>
+                </div>
+            </div>
+                
+<!--descripcion de auto-->
+            <div class="game-card">
+                <div class="game-card-content">
+                    <div class="game-image"></div>
+                    <div class="game-title">Carreras future city</div>
+                    <div class="game-description">Compite a través de una ciudad futurista iluminada con neón</div>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <button class="comment-button">COMENTARIO</button>
+                </div>
+            </div>
+
+<!--descripcion de ajedres-->
+            <div class="game-card">
+                <div class="game-card-content">
+                    <div class="game-image"></div>
+                    <div class="game-title">Ajedrez Digital</div>
+                    <div class="game-description">Ajedrez clásico reinventado en el ámbito digital</div>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star empty">★</span>
+                    </div>
+                    <button class="comment-button">COMENTARIO</button>
+                </div>
+            </div>
+        </section>
+
+<!--descripcion de assassin-->
+        <section class="bottom-cards-section">
+            <div class="small-game-card">
+                <div class="small-game-card-image"></div>
+                <div class="small-game-card-info">
+                    <div class="small-game-card-title">Assassins Creed</div>
+                    <div class="small-game-card-description">continúa la historia de Ezio Auditore da Firenze, un Maestro Asesino, en su lucha contra los Templarios, esta vez en Roma.</div>
+                    <div class="small-game-rating">
+                        <span>1-5</span>
+                        <div class="stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star empty">★</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!--descripcion de prototyp-->
+            <div class="small-game-card">
+                <div class="small-game-card-image"></div>
+                <div class="small-game-card-info">
+                    <div class="small-game-card-title">Prototype</div>
+                    <div class="small-game-card-description">tambien lanzado para Pc, uno de los grandes respaldo de su epoca en Xbox360, PROTOTYPE sin duda es un juego que atrapa e infecta.</div>
+                    <div class="small-game-rating">
+                        <span>1-5</span>
+                        <div class="stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star empty">★</span> <!--hace que las estrellas sean opacas-->
+                            <span class="star empty">★</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!--descripcion consolas-->
+
+            <div class="small-game-card">
+                <div class="small-game-card-image"></div>
+                <div class="small-game-card-info">
+                    <div class="small-game-card-title">CONSOLAS</div>
+                    <div class="small-game-card-description">si tuviste la oportunidad de tener ambas, contanos cual fue tu experiencia en cada una de ellas las PS(todas las generaciones) XBOX(todas las generaciones).</div>
+                    <div class="small-game-comment-button">Comentar</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-info" id="real-time-info">
+         
+
+    <script>
+        function updateDateTimeLocation() {
+            const now = new Date();
+
+            // Ubicación fija
+            const location = "Chaco, Argentina";
+            
+            // Formato de la hora (ver mas adelante para modificacion)
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const timeString = `${hours}:${minutes}:${seconds}`;
+
+            // Formato de la fecha)
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0'); // Meses son 0-11
+            const day = String(now.getDate()).padStart(2, '0');
+            const dateString = `${day}-${month}-${year}`;
+
+            // Puedes determinar si es AM/PM si lo prefieres para la hora del día
+            const ampmHours = now.getHours();
+            const ampm = ampmHours >= 12 ? 'PM' : 'AM';
+            const displayHours = ampmHours % 12 || 12; // Convierte 0 a 12 para medianoche
+            const displayMinutes = String(now.getMinutes()).padStart(2, '0');
+            const ampmTimeString = `${displayHours}:${displayMinutes} ${ampm}`;
+
+            
+
+            const realTimeInfoDiv = document.getElementById('real-time-info');
+            if (realTimeInfoDiv) {
+                realTimeInfoDiv.innerHTML = `
+                    <span>${location}</span>
+                    <span>${dateString}</span>
+                    <span>${timeString} Hs.</span>
+                    
+                    
+                `;
+            }
+        }
+
+        // Actualizar la información inmediatamente al cargar la página
+        updateDateTimeLocation();
+
+        // Actualizar la información cada segundo (1000 milisegundos)
+        setInterval(updateDateTimeLocation, 1000);
+               
+    </script>
+    </div>
+</footer>
+    <!--<footer class="footer">
+        <div class="footer-info">
+            <span>11:43</span>
+            <span>Chaco, Argentina</span>
+            <span>2023-10-27</span>
+            <span>10:35 AM</span>
+        </div>
+    </footer>-->
+
+</body>
+</html>
